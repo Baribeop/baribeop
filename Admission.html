@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>School Admission Form</title>
+	<style type="text/css">
+	body {font-family: arial, sans-serif; margin: 0; padding: 0; display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f3f3f3; }
+	form {background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10pxrgba 0,0,0,0,1; width: 400px;}
+	h1 {text-align: center; font-family: sans-serif; justify-content: normal; text-decoration: underline overline; text-decoration-color: blue;}
+	.form-group {margin-bottom: 15px;}
+	label {display: block; font-weight: bold;}
+	input [type='text']
+	input [type='email']
+	Select,
+	textarea {width: 100%; padding: 8px; border: 1px solid; border-radius: 5px; box-sizing: border-box; }
+	</style>
+
+</head>
+<body>
+<h1>School Admission Form</h1>
+<form action="Admission_Process.html" method="post" >
+<div class="form-group">
+<label for="Student Name">Student Name:</label>
+<input type="text" id="Student-name" name="Student-Name"required>
+</div>
+	<div class="form-group">
+	<label for="age">Age:</label>
+<input type="number" id="age" name="age"required></div>
+<div class="form-group">
+	<label for="class">Applying for Class:</label>
+	<select id="grade" name="grade"required>
+		<option value="Preschool">Preschool</option>
+		<option value="Nuersry 1">Nursery 1</option>
+		<option value="Nursery 2">Nursery 2</option>
+		<option value="Grade 1">Grade 1</option>
+		<option value="Grade 2">Grade 2</option>
+		<option value="Grade 3">Grade 3</option>
+		<option value="Grade 4">Grade 4</option>
+		<option value="Grade 5">Grade 5</option>
+	</select></div>
+	<div class="form-group">
+		<label for="Parent-Email">Parent Email:</label>
+		<input type="text" id="Parent-Email" name="Parent-Email"required>
+	</div>
+	<div class="form-group">
+		<label for="Contact Number">Contact Number:</label>
+		<input type="text" id="Contact-Number" name="Contact-Number" required>
+	</div>
+	<div class="form-group">
+		<label for="Comment">Additional Comments:</label>
+		<textarea id="Comments" name="Comments"></textarea>
+	</div>
+	<button type="Submit">Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us</title>
+    <style type="text/css">
+        body {
+            background-color: skyblue;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        td {
+            padding: 8px;
+        }
+
+        select,
+        input[type="text"],
+        textarea {
+            width: 100%;
+            box-sizing: border-box;
+            margin-bottom: 8px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Contact Carat International Schools</h2>
+    <form method="get" action="https://www.caratinternationalschools.com/cgi/query.cgi">
+        <p>Please fill out the form as completely as possible so we can best answer your query. If you'd like our catalog and other information about the school, don't forget to check the 'send information' option.</p>
+        <p>We also welcome email, whether you are interested in talking about the school, or you would like to learn more about our school system. If you'd rather not contact us, you can <a href="index.html">go to our home page</a> or learn about our <a href="list.html">mailing lists</a>.</p>
+        <center>
+            <table border="0">
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="full name" /></td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" name="address" size="60" /></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="text" name="Phone Number"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="Email address"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">This School year, your child is in
+                        <select name="child1">
+                            <option selected>(please choose one)</option>
+                            <option>Pre-kindergarten</option>
+                            <option>Kindergarten</option>
+                            <option>First</option>
+                            <option>Second</option>
+                            <option>Third</option>
+                            <option>Fourth</option>
+                            <option>Fifth</option>
+                            <option>Sixth</option>
+                            <option>Seventh</option>
+                            <option>Eighth</option>
+                            <option>Ninth</option>
+                            <option>Tenth</option>
+                            <option>Eleventh</option>
+                            <option>Twelfth</option>
+                            <option>(not applicable)</option>
+                        </select>
+                        <div style="border: 3px; color: #ccc; padding: 3px; margin-top: 5px;">
+                            <input type="checkbox" name="this year">I'm interested in learning about enrollment opportunities for this school year.
+                        </div>
+                    </td>	
+                </tr>
+                <tr>
+                    <td colspan="2" class="text">Your Message (Write as much as you'd like!):<br />
+                        <textarea rows="5" cols="70" name="note" style="margin-left: 2em; margin-top: 3px"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit Request" />
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact Us</title>
+	<style type="text/css">
+		body {background-color: skyblue;}
+	</style>
+</head>
+<body>
+<h2>Contact Carat International Schools</h2>
+<form method="get"
+action="www.caratinternationalschools.com/cgi/query.cgi">
+<p>
+please fill out the form as completely as possible so we can best answer your query. if you'd like our catalog and other information about the school, dont forget to check the 'send information' option.
+</p><p>
+We also welcome email, whether you are interested in talking about the school, or you would like to learn more about our school system. if you'd rather not contact us, you can <a href="index.html">go to our home page</a> or learn about our <a href="list.html">mailing lists</a>
+</p>
+<center>
+<table border="0">
+<tr>
+<td>name:</td><td><input type="text" name="full name"/></td>
+</tr><tr>
+<td>Address:</td><td><input type="text" name="address" size="60"/></td>
+</tr><tr>
+	<td>Phone:</td><td><input type="text" name="Phone Number"></td>
+</tr><tr>
+	<td>
+		Email:
+	</td>
+	<td><input type="text" name="Email address"></td>
+</tr>
+<tr>
+<td colspan="2"> This School year, your child is in <select name="child1"> <option selected> (please choose one)</option>
+<option>Pre-kindergarten</option><option>kindergarten</option><option>First</option><option>Second</option><option>Third</option>
+<option>Fourth</option><option>Fifth</option><option>Sixth</option><option>Seventh</option><option>Eighth</option><option>Ninth</option><option>tenth</option><option>Eleventh</option><option>Twelfth</option><option>(not applicable)</option>
+</select>
+<div style="border: 3px; groove #ccc; padding: 3px; margin-top: 5px;">
+	<input type="checkbox" name="this year">I'm interested in learning about enrolment opportunities for this school year.
+</div>
+</td>
+</tr>
+<tr>
+<td colspan="2" class="text">your Message(Write as much as you'd like!):<br /> <textarea rows="5" cols="70" name="note" style="margin-left: 2em; margin-top: 3px"></textarea></td>
+</tr>
+<tr><td colspan="2" align="center"> <input type="submit" value="submit request" /></td></tr></table>
+</center>
+</form>
+</body>
+</html> -->
