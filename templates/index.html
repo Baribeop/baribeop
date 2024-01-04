@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Carat International Schools</title>
+    <style type="text/css">
+        /* Reset some default browser style */
+        body, h1, h2, p {margin: 0; padding: 0; font-family: 'Arial', sans-serif; background-color: skyblue;}
+        body {font-family: 'Arial', sans-serif, 'Helvetica'; background-color: skyblue; background-image: url('static/cert.jpg');}
+        header {background-color: #333; color: #fff; text-align: center; padding: 1rem 0;}
+        nav ul {list-style: none; background-color: blue; display: flex; justify-content: center;}
+        nav li {margin: 0 20px; display: inline; color: skyblue;}
+        nav a {color: #fff; text-decoration: none;}
+        .hero {background-size: cover; text-align: center; color: #fff; padding: 4rem 0; background-image: url('static/cert.jpg');}
+        .cta-button {background-color: #4CAF50; color: #fff; padding: 10px 20px; text-decoration: none;}
+        .about, .contact {padding: 2rem;}
+        footer {background-color: #333; color: #fff; text-align: center; padding: 1rem 0;}
+        p {font-family: 'cursive'; background-color: skyblue; font-size: 120%;}
+        h1 {text-decoration: underline overline; color: lightskyblue; text-transform: capitalize; letter-spacing: 0.05em; text-align: center;}
+        h2 {text-decoration: underline; text-align: center; background-color: silver;}
+        a {text-decoration: none; color: blue;}
+        main {padding: 20px;}
+    </style>
+    <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function() {
+            const contentSection = document.getElementById('content');
+            function showContent(content) {
+                contentSection.innerHTML = content;
+            }
+            document.getElementById('home').addEventListener('click', function(event) {
+                event.preventDefault();
+                showContent('<h2>Welcome to Our School</h2><p>Check Out Our events, Courses and more.</p>');
+            });
+            document.getElementById('about').addEventListener('click', function(event) {
+                event.preventDefault();
+                showContent('<h2>About Us</h2><p>We strive to provide quality education for young minds.....</p>');
+            });
+            document.getElementById('Contact').addEventListener('click', function(event) {
+                event.preventDefault();
+                showContent('<h2>Contact Us</h2><p>Reach out to us via phone or email..</p>');
+            });
+        });
+    </script>
+</head>
+<body>
+<header>
+    <h1>Welcome To Our School</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="home">Home</a></li>
+            <li><a href="about.html" id="about">About Us</a></li>
+            <li><a href="contact.html" id="Contact">Contact Us</a></li>
+            <li><a href="classes.html">Classes Available</a></li>
+            <li><a href="Admission.html">Admission_Process</a></li>
+            <li><a href="schoolgist.html">School Gists</a></li>
+        </ul>
+    </nav>
+</header>
+<section class="hero">
+    <h2>Our Vision Statement</h2>
+    <p>To lay the foundation for tomorrow's generation of balanced minds.</p>
+    <h2>Our Mission Statement</h2>
+    <p>To provide world-class facilities and skills that will produce tomorrow's leaders with strong intellectual curiosity.</p>
+    <a href="Admission.html" class="cta-button">Admissions</a>
+</section>
+<section class="about">
+    <h2>About Us</h2>
+    <p>Carat International School is one of the most recognized schools in Port Harcourt, Rivers State. The main goal of the school is to mold lives through dedication, respect, and courtesy, integrity, and discipline.</p>
+    <p>Carat International School started its operation on the 17th of September, 2012</p>
+    <a href="about.html" class="cta-button">Learn more</a>
+</section>
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>You can contact the school admin directly here<br><a href="contact.html" class="cta-button">Learn more</a></p>
+</section>
+<footer><p>&copy; 2023 Carat International Schools. Providing quality education since inception</p></footer>
+</body>
+</html>
+
+
+
+
+
+ <!-- <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Carat International Schools</title>
+	<style type="text/css">
+		/* Reset some default browser style */
+		body, h1, h2, p {margin: 0; padding: 0; font-family: arial, sans-serif; background-color: skyblue;}
+		body {font-family: arial, sans-serif, helvetica; background-color: skyblue; background-image: mypic.var(jpg ba);}
+		header {background-color: #333; color: #fff; text-align: center; padding: 1rem 0;}
+		nav u1 {list-style: none; background-color: blue;}
+		nav li {display: inline; margin-right: 20px; color: skyblue;}
+		nav a {color: #fff; text-decoration: none;}
+		.hero {background-image: ; background-size: cover; text-align: center; color: #fff; padding: 4rem 0;}
+		.cta-button {background-color: #4CAF50; color: #fff; padding: 10px 20px; text-decoration: none;}
+		.about, .contact {padding: 2rem;}
+		footer {background-color: #333; color: #fff; text-align: center; padding: 1rem 0;}
+		p {font-family: cursive; background-color: skyblue; font-size: 120%;}
+		h1 {text-decoration: underline overline; color: lightskyblue;}
+		h2 {text-decoration: underline; text-align: center; background-color: silver;}
+		a {text-decoration: none; color: blue;}
+		main {padding: 20px;}
+		footer {background-color: #333; color: #fff; text-align: center; padding: 10px;}
+		<style type="text/css">
+		body {font-family: arial, helvetica, sans-serif; font-size: 90%; line-height: 1.25; background-color: lightskyblue;}
+		h1 {text-transform: capitalize; text-decoration: overline underline; color: blue; letter-spacing: 0.05em; text-align: center;}
+		p {font-family: cursive; text-decoration: none; font-size: 150%; text-align: justify; }
+     header {background-color: blue; color: blue; padding: 10px 0; }
+     nav u1 {list-style: none; display: flex; justify-content: center;}
+     nav li {margin: 0 20px;}
+     nav a {text-decoration: none; color: #fff;}
+     .cta-button {display: inline-block; background-color: transparent; color: blue; padding: 20px; text-decoration: none; border-radius: 5px;}
+
+	</style>
+	</style>
+	<script type="text/javascript">
+		document.addEventListener('DOMcontentLoaded,' function() {const contentSection=document.getElementByid('content'); 
+			function showContent(content) {
+				contentSection.innerHTML=cntent;
+			}
+			document.getElementByid('home').addEventListener('click',function(event) {event.preventDefault(); 
+				showContent(
+					<h2>Welcome to Our School</h2>
+					<p>Check Out Our events, Courses and more.</p> 
+					);
+					}); 
+			document.getElementByid('about').addEventListener('click',function(event) {event.preventDefault(); 
+				showContent(
+					<h2>about Us</h2>
+					<p>We strive to provide quality education for young minds.....</p> 
+					);
+					}); 
+			document.getElementByid('Contact').addEventListener('click',function(event) {event.preventDefault(); 
+				showContent(
+					<h2>Cntact Us</h2>
+					<p>Reach out to us via phone or email..</p> 
+					);
+					}); </script>
+</head>
+<body>
+<header>
+	<h1>Welcome To Our School</h1>
+	<nav>
+	<ul>
+	<li><a href="index.html">Home</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+	<li><a href="classes.html">Classes Available</a></li>
+	<li><a href="Admission.html">Admission_Processe</a></li>
+	<li><a href="schoolgist.html">School Gists</a></li>
+	</ul>
+	</nav>
+</header>
+<section class="hero">
+	<h2>Our Vision Statement</h2>
+	<p>To lay foundation for tomorrow's generation of balanced minds.</p>
+	<h2>Our Mission Statement</h2>
+	<p>To provide world class facility and skills that will produce tomorrow's leaders with strong intellectual curiosity.</p>
+	<a href="Admission.html" class="cta-button">Admissions</a>
+</section>
+<section class="about">
+	<h2>About Us</h2>
+	<p>Carat International School is one of the most recognised Schools in Port Harcourt, Rivers State. The main goal of the school is mould lives through dedication, respect and courtesy, integrity and discipline.</p>
+	<p>Carat International School Started it Operation on the 17th of September, 2012</p>
+	<a href="about.html" class="cta-button">Learn more</a>	
+</section>
+<section class="contact">
+	<h2>Contact Us</h2>
+	<p>you can contact the school admin directly here<br><a href="contact.html" class="cta-button">Learn more</a>
+		</p>
+</section>
+<footer><p>&copy; 2023 Carat International Schools. Providing quality education since inception</p></footer>
+</body>
+</html> -->
